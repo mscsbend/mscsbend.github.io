@@ -57,13 +57,15 @@ title: Morning Star Christian School - Computer Science Class
 	<ul>
 		<li>Don't know yet</li>
 	</ul>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>	
+
+	<h3><a name="blog" class="anchor" href="#blog"><span class="octicon octicon-link"></span></a>Blog</h3>
+	<ul>
+	  {% for post in site.posts %}
+	    <li>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+	    </li>
+	  {% endfor %}
+	</ul>	
       </section>
       <footer>
         <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
