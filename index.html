@@ -63,9 +63,10 @@ title: Morning Star Christian School - Computer Science Class
 	  {% for post in site.posts %}
 	    <li>
 	      <a href="{{ post.url }}">{{ post.title }}</a>
+	      {{ post.excerpt }}
 	    </li>
 	  {% endfor %}
-	</ul>	
+	</ul>
       </section>
       <footer>
         <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
