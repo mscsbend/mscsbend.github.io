@@ -3,4 +3,4 @@ layout: page
 title: Home
 ---
 ### When
-First lesson is Friday April 25'th @1PM - 3PM.
+Today is Friday May 23'th @1PM - 3PM.
