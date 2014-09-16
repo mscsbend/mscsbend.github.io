@@ -3,7 +3,7 @@
 ##What is it?
 HTML5 is an abbreviation that stands for **H**yper **T**ext **M**arkup **L**anguage version **5**.
 
-It is an extension to XML; e**X**tensible **M**arkup **L**anguage.
+It is an extension to XML; e<b>X</b>tensible **M**arkup **L**anguage.
 
 ##Why should I care?
 HTML5 is what makes up web pages, and since a Chrome application consists of web pages, we need to know how to create HTML5 content.
