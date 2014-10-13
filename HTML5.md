@@ -1,3 +1,7 @@
+---
+layout: page
+title: HTML5
+---
 #HTML5
 
 ##What is it?
