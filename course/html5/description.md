@@ -25,7 +25,7 @@ An empty element must start with `<` and end with `/>`. In between is the name o
 
 
 ```
-    <html />
+<html />
 ```
     
 The word `html` is the name of the element. An element in XML can have any name.
