@@ -1,5 +1,7 @@
-#HTML5
-
+---
+layout: page
+title: HTML5
+---
 ##What is it?
 HTML5 is an abbreviation that stands for <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage version <b>5</b>.
 
