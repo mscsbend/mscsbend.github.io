@@ -15,7 +15,7 @@ Let's look at XML syntax first.
 An XML document is a file, that contains structured information. The structure is defined by using the following characters that have special meaning in XML:
 
     < > / " = & # ;
-
+    
 ###Elements
 The `<` and `>` characters are used to define *elements*.
 
@@ -23,9 +23,10 @@ An element can either have content, or be empty.
 
 An empty element must start with `<` and end with `/>`. In between is the name of the element and maybe some *attributes*, we'll get back to those.
 
-
+    ```XML
     <html />
-
+    ```
+    
 The word `html` is the name of the element. An element in XML can have any name.
 
 An element with content must first have a *start-tag* that starts with `<` and ends with `>`, then comes the content, which can be text, or other elements, and then at the end comes the *end-tag*, which starts with `</` and ends with `>`.
