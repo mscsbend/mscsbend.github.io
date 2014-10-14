@@ -29,7 +29,7 @@ The word `html` is the name of the element. An element in XML can have any name.
 
 An element with content must first have a *start-tag* that starts with `<` and ends with `>`, then comes the content, which can be text, or other elements, and then at the end comes the *end-tag*, which starts with `</` and ends with `>`.
 
-```XML
+```
 <html>
 Some content
 </html>
@@ -37,7 +37,7 @@ Some content
 
 An element can have any number of *child-elements*, which can again have child-elements to any level of nexting you want.
 
-```XML
+```
 <html>
   <head>
     <title>My first web page</title>
@@ -52,7 +52,7 @@ It is customary to indent child-elements, but it is not neccessary. It just make
 
 Something like this is perfectly legal XML syntax:
 
-```XML
+```
 <html><body><p>Here is a paragraph</p></body></html>
 ```
 
