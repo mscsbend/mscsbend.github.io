@@ -38,14 +38,14 @@ An element with content must first have a *start-tag* that starts with `<` and e
 An element can have any number of *child-elements*, which can again have child-elements to any level of nexting you want.
 
 ```
-<html>
-  <head>
-    <title>My first web page</title>
-  </head>
-  <body>
-    <p>Here is a paragraph</p>
-  </body>
-</html>
+    <html>
+        <head>
+            <title>My first web page</title>
+        </head>
+        <body>
+            <p>Here is a paragraph</p>
+        </body>
+    </html>
 ```
 
 It is customary to indent child-elements, but it is not neccessary. It just makes it more *pretty*, and easier to read.
@@ -53,7 +53,7 @@ It is customary to indent child-elements, but it is not neccessary. It just make
 Something like this is perfectly legal XML syntax:
 
 ```
-<html><body><p>Here is a paragraph</p></body></html>
+    <html><body><p>Here is a paragraph</p></body></html>
 ```
 
 ##Where can I find more information?
