@@ -24,9 +24,7 @@ An element can either have content, or be empty.
 An empty element must start with `<` and end with `/>`. In between is the name of the element and maybe some *attributes*, we'll get back to those.
 
 ```XML
-
     <html />
-    
 ```
     
 The word `html` is the name of the element. An element in XML can have any name.
