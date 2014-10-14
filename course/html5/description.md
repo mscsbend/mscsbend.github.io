@@ -23,7 +23,8 @@ An element can either have content, or be empty.
 
 An empty element must start with `<` and end with `/>`. In between is the name of the element and maybe some *attributes*, we'll get back to those.
 
-`<html />`
+
+    <html />
 
 The word `html` is the name of the element. An element in XML can have any name.
 
@@ -36,29 +37,20 @@ An element with content must first have a *start-tag* that starts with `<` and e
 
 An element can have any number of *child-elements*, which can again have child-elements to any level of nexting you want.
 
-```
 
     <html>
-    
         <head>
-        
             <title>My first web page</title>
-            
         </head>
-        
         <body>
-        
             <p>Here is a paragraph</p>
-            
         </body>
-        
     </html>
-```
 
 It is customary to indent child-elements, but it is not neccessary. It just makes it more *pretty*, and easier to read.
 
 Something like this is perfectly legal XML syntax:
 
-`<html><body><p>Here is a paragraph</p></body></html>`
+    <html><body><p>Here is a paragraph</p></body></html>
 
 ##Where can I find more information?
