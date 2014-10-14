@@ -14,7 +14,7 @@ Let's look at XML syntax first.
 
 An XML document is a file, that contains structured information. The structure is defined by using the following characters that have special meaning in XML:
 
-`< > / " = & # ;`
+    < > / " = & # ;
 
 ###Elements
 The `<` and `>` characters are used to define *elements*.
