@@ -30,16 +30,16 @@ The word `html` is the name of the element. An element in XML can have any name.
 An element with content must first have a *start-tag* that starts with `<` and ends with `>`, then comes the content, which can be text, or other elements, and then at the end comes the *end-tag*, which starts with `</` and ends with `>`.
 
 ```
+
     <html>
-    
         Some content
-        
     </html>
 ```
 
 An element can have any number of *child-elements*, which can again have child-elements to any level of nexting you want.
 
 ```
+
     <html>
     
         <head>
