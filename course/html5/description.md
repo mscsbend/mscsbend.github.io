@@ -23,6 +23,11 @@ An element can either have content, or be empty.
 
 An empty element must start with `<` and end with `/>`. In between is the name of the element and maybe some *attributes*, we'll get back to those.
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
     <html />
 
