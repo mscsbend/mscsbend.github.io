@@ -20,8 +20,9 @@ NSMscsBend.runner = function(spec) {
     var context = spec.context;
     context.save();
     if(spec.parts) {
-      context.translate(spec.hingePoint.x-(spec.parts[0].spec.width/2), spec.hingePoint.y);
+      context.translate(spec.hingePoint.x, spec.hingePoint.y);
       context.rotate(spec.topJointAngle * Math.PI / 180);
+      context.translate(-spec.parts[0].spec.width/2, 0);
       spec.parts[0].render(context, 0, 0);
       context.translate(0, spec.parts[0].spec.height);
       context.rotate(spec.lowerJointAngle * Math.PI / 180);
