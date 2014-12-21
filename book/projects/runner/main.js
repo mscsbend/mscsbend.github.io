@@ -24,8 +24,10 @@ NSMscsBend.runner = function(spec) {
       context.rotate(spec.topJointAngle * Math.PI / 180);
       context.translate(-spec.parts[0].spec.width/2, 0);
       spec.parts[0].render(context, 0, 0);
+      context.translate(+spec.parts[0].spec.width/2, 0);
       context.translate(0, spec.parts[0].spec.height);
       context.rotate(spec.lowerJointAngle * Math.PI / 180);
+      context.translate(-spec.parts[0].spec.width/2, 0);
       spec.parts[1].render(context, 0, 0);
     } else {
       context.translate(spec.hingePoint.x, spec.hingePoint.y);
@@ -52,7 +54,7 @@ NSMscsBend.runner = function(spec) {
     var head = that.bodyPart({x: 52, y: 2, width: 40, height: 50});
     var body = that.bodyPart({x: 100, y: 2, width: 40, height: 100});
     var upperLeg = that.bodyPart({x: 27, y: 5, width: 20, height: 45});
-    var lowerLeg = that.bodyPart({x: 27, y: 56, width: 20, height: 45});
+    var lowerLeg = that.bodyPart({x: 27, y: 56, width: 68, height: 58});
     var upperArm = that.bodyPart({x: 4, y: 5, width: 20, height: 45});
     var lowerArm = that.bodyPart({x: 4, y: 56, width: 20, height: 45});
     
